@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+  font-family: Verdana,sans-serif;
+	text-align: center;
+}
+
+.SearchForm{
+  margin: auto;
+  margin-top: 25px;
+	width: 40%;
+}
+.SearchForm input{
+  width: 100%;
+  background-color: #e7;
+  border: 1px solid black;
+  font-size: 16px;
+  padding: 8px;
+}
+.ListOfUsers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.ListOfUsers img{
+  height: 100px;
+	margin-right: 10%;
+}
+.content{
+  padding-top: 25px;
+  margin: auto;
+  width: 40%;
+}
+.User{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 10px 0px;
+	padding: 10px 0px;
+	border-top: 1.5px solid #dcdcdc;
+}
+.User a{
+	font-weight: 500;
+	text-decoration: none;
+}

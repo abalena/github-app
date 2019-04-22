@@ -8,6 +8,7 @@ const ListOfUsers = props => {
     users = props.data.map(user =>
       <User
         key={user.id}
+        avatar={user.avatar_url}
         name={user.login}
         url={user.html_url}
       />);
@@ -15,7 +16,7 @@ const ListOfUsers = props => {
     return <div>Check your query</div>
   }
   return(
-    <ul>
+    <ul className='ListOfUsers'>
       { users }
     </ul>
   );
